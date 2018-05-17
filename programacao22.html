@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Congresso Unifacs</title>
+    <link href="congresso/css/bootstrap.min.css" rel="stylesheet">
+    <link href="congresso/css/font-awesome.min.css" rel="stylesheet">
+    <link href="congresso/css/congresso.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  </head>
+
+<body>
+    <header>  
+        <!-- Dynamic generated -->
+    </header>
+
+    <div id="wrapper container-fluid">  
+        <section class="page-content col-xs-12 ">
+        	<h2 class="text-h">Programação</h2>
+            <hr>
+            <button onclick="location.href = 'programacao.html'" class="btn btn-primary"> << Voltar</button>
+
+            <div class="col-xs-12 noite">
+                <h3>2º Dia - 22/09</h3>
+                <h4>Noite</h4>
+                <hr>
+            </div>
+
+            <div class="panels">
+                <!-- Credenciamento -->
+                <section class="col-xs-12 panel-wrapper">
+                    
+                    <div class="col-xs-12 hora"><h3>18h às 18:45</h3></div>
+
+                    <div class="panel panel-primary col-xs-12">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">CREDENCIAMENTO</h3>
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <!-- Palestras -->
+
+                <section class="col-xs-12 panel-wrapper border-wrapper">
+                
+                    <div class="col-xs-12 hora"><h3>19h às 20:20</h3></div>  
+                    
+                    <!-- Palestras I -->
+                    <div class="palestras-wrapper 19-wrapper"></div>                
+                
+                </section>
+
+
+
+
+                <section class="col-xs-12 panel-wrapper">
+                    <div class="col-xs-12 hora"><h3>20:40 às 22h</h3></div>
+
+                    <!-- Palestras II -->
+                    <div class="palestras-wrapper 2040-wrapper"></div>  
+                </section>
+                
+                <button style="float: left;" onclick="location.href = 'programacao21.html'" class="btn btn-primary"><< Dia Anterior</button>
+                <button style="float: right;" onclick="location.href = 'programacao23.html'" class="btn btn-primary">Próximo dia >></button>
+                
+            </div>
+        </section>
+        
+
+        <footer id="footer" class="footer-congresso fixed-bottom col-xs-12">
+        	<div class="col-sm-6">
+                <p>Unifacs - Todos os direitos reservados</p>
+        	</div>
+            <div class="col-sm-6">
+                <p class="pull-right"Feito por Rafael Melo</p>
+            </div>
+        </footer>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="congresso/js/bootstrap.min.js"></script>
+    <script src="congresso/js/script.js"></script>
+    <script src="congresso/js/palestrasDia22.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Congresso Unifacs</title>
+    <link href="congresso/css/bootstrap.min.css" rel="stylesheet">
+    <link href="congresso/css/font-awesome.min.css" rel="stylesheet">
+    <link href="congresso/css/congresso.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  </head>
+
+  <body>
+<header></header>
+
+<div id="wrapper container-fluid">  
+    <section class="page-content col-xs-12 ">
+    	<h2 class="text-h">Programação</h2>
+        <hr>
+        <button onclick="location.href = 'programacao.html'" class="btn btn-primary"> << Voltar</button>
+        <div class="col-xs-12 noite">
+        <h3>1º Dia - 21/09</h3>
+        <h4>Noite</h4>
+        <hr>
+        </div>
+        <div class="panels">
+        <!-- Credencimento -->
+            <section class="col-xs-12 panel-wrapper">
+               
+                <div class="col-xs-12 hora"><h3>18h às 18:30</h3></div>
+                
+                <div class="panel panel-primary col-xs-12">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">CREDENCIAMENTO</h3>
+                    </div>
+                </div>
+            
+            </section>
+            <!-- Abertura -->
+            <section class="col-xs-12 panel-wrapper">
+                <div class="col-xs-12 hora"><h3>18:45 às 19:15</h3></div>
+
+                <div class="panel panel-primary col-xs-12">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">ABERTURA DO CONGRESSO</h3>
+                  </div>
+                  <div class="panel-body">
+                    <p>Daniela Araújo - Coordenadora dos Cursos de Tecnologia da Informação da UNIFACS</p>
+                    <p>Rogério Vassoler - Coordenador do Congresso</p>
+                  </div>
+                </div>
+            </section>
+
+            <!-- Palestras -->
+            <section class="col-xs-12 panel-wrapper border-wrapper">
+                <!-- Time -->
+                <div class="col-xs-12 hora"><h3>19:20 às 20:30</h3></div>
+
+                <!-- Palestras I -->
+                <div class="palestras-wrapper 1920-wrapper"></div>
+
+            </section>
+
+            <section class="col-xs-12 panel-wrapper">
+                <div class="col-xs-12 hora"><h3>20:45 às 22h</h3></div>
+                
+                <!-- Palestras II -->
+                <div class="palestras-wrapper 2045-wrapper"></div>
+            
+            </section>
+
+
+        </div>
+        <button style="float: right;" onclick="location.href = 'programacao22.html'" class="btn btn-primary">Próximo dia >></button>
+    </section>
+
+    
+
+    <footer id="footer" class="footer-congresso fixed-bottom col-xs-12">
+    	<div class="col-sm-6">
+            <pUnifacs - Todos os direitos reservados</p>
+    	</div>
+        <div class="col-sm-6">
+            <p class="pull-right"Feito por Rafael Melo</p>
+        </div>
+    </footer>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="congresso/js/bootstrap.min.js"></script>
+    <script src="congresso/js/script.js"></script>
+    <script src="congresso/js/palestrasDia21.js"></script>
+  </body>
+</html>

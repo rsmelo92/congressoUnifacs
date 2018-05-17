@@ -1,0 +1,548 @@
+body{
+	font-family: 'Noto Sans', sans-serif;
+}
+a{
+	cursor: pointer;
+}
+/* START Header*/
+.wrapper{
+	height: 320px;
+	background-image: url('../img/logo-main.png');
+	background-repeat:no-repeat;
+	background-position: center center;
+	/*background-color:#fff;*/
+	background-color:#10264A;
+	position: relative;
+	padding-bottom: 30%;
+}
+.wrapper-mob{
+	height: 210px;
+	background-color:#10264A;
+
+}
+.modal-body{
+	text-align: center;
+}
+.modal-body a{
+	color: #fff;
+}
+.modal-header{
+	text-align: center;
+	color: #31708f;
+	background-color: #d9edf7;
+	border-radius: 5px;
+}
+.dias-banner{
+	color: #fff;
+	margin-top: 0;
+	position: absolute;
+    bottom: 0;
+    left: 37%;
+}
+.dias-banner-mob{
+	color: #fff;
+	margin-top: 0;
+	text-align: center;
+}
+.img-banner{
+    height: 150px;
+}
+.main-banner{
+	width: 100%;
+	margin-top: 20%;
+}
+.active a{
+	text-decoration:overline;
+	color: #2AC2F0!important;/*
+	color: #BDBEC0!important;*/
+}
+.banner{
+	margin-top: 6%;
+}
+.fa-globe{
+	color: #0C1860;
+}
+.patrocinadores{
+	padding-top: 1.5%;
+}
+.patrocinadores i{
+	font-size: 45px;
+}
+.apoio-img{
+	padding-bottom: 6%;
+}
+.navbar-congresso{
+	border-radius: 0;
+	background-color: #10264A; 
+	border:none;
+	padding-top:1%;
+	padding-left: 12%;
+	font-size: 16px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.image-absolute{
+	position: absolute;
+}
+.nav-link{
+	color: #fff!important;/*
+	color: #2AC2F0!important;*/
+	border-radius: 30px;
+	background-color: transparent !important;
+	position: relative;
+}
+.navbar-item:hover{
+	text-decoration:overline;
+}
+/* END Header*/
+/*START Page O Congresso*/
+.text-h{
+	color:#042C5C;
+}
+.menu-aside{
+	margin-bottom: 2%;
+}
+.prog-titulo{
+	background-color: #042C5C !important;
+	padding:2%;
+	color: #fff;
+	border-radius:0;
+}
+.h-prog{
+	color: #fff;/*
+	color: #2AC2F0;*/
+	padding-left: 3%;
+}
+.programacao-main{
+	margin-bottom: 10%;
+	padding: 0;
+}
+.btn-ver-prog{
+	background-color: #2AC2F0;
+	border:none;
+	height: 40px;
+	width: 100%;
+	margin-bottom: 4%;
+	border-radius: 2px;
+	font-size: 13px;
+}
+.btn-ver-prog:hover{
+	background-color: #337AB7;
+}
+.page-content{
+	margin-bottom: 6%;
+	padding-left: 8%;
+}
+@media screen and (max-width: 768px){
+.page-content{
+	padding-left: 3%;
+}
+}
+/* END Page O Congresso*/
+
+
+/*START Page A Programação*/
+.panel-dia{
+    margin: 5px;
+    display: inline-block;
+    padding:35px!important;
+    width: 30%;
+    -webkit-transition:box-shadow .5s;
+       -moz-transition:box-shadow .5s;
+         -o-transition:box-shadow .5s;
+    		transition:box-shadow .5s;
+}
+.dia{
+	margin-bottom: 10%;
+}
+.panel-dia:hover{
+	-webkit-box-shadow: -1px 4px 20px 5px rgba(214,215,230,1);
+	-moz-box-shadow: -1px 4px 20px 5px rgba(214,215,230,1);
+	box-shadow: -1px 4px 20px 5px rgba(214,215,230,1);
+
+}
+@media screen and (max-width: 768px){	
+	.noite{
+		margin-bottom: 8%;
+	}
+	.panel-dia{
+	    width: 100%;
+	}
+}
+
+.panel-wrapper{
+	position: relative;
+	margin-top: 3%;
+}
+.border-wrapper{
+    padding: 1%;
+    border-radius: 8px;	
+}
+.panel-proc{
+	background-color: #ddd !important;
+	border:solid 1px #ddd!important;
+}
+.panel-free{
+	background-color: #ffd9c9 !important;
+	border:solid 1px #ffd9c9!important;
+}
+.free-style{
+	color: #996049!important
+}
+.minera-style{
+	color:#3C763D;
+}
+.dev-style{
+	color:#A94442;
+}
+.gest-style{
+	color:#31708F;
+}
+.sec-style{
+	color:#8A6D3B;
+}
+.proc-style{
+	color: #888 !important;
+
+}
+.hora{
+	position: absolute;
+    top: -48px;
+    padding: 0;
+}
+.panel{
+	padding:0;
+}
+.panel-h{
+	height: 120px;
+	padding: 28px 11%;	
+}
+.panel-body{
+	text-align: center;
+}
+.panel-footer{
+	font-size: 10px;
+	text-align: center;
+}
+.trab-acad-body{
+	text-align: center;
+}
+.trab-acad-titles{
+	font-weight: bold;
+	color: #042C5C;
+}
+.title-box{
+	font-size: 14px;
+	line-height: 150%;
+	text-align: center;
+	font-weight: bold;
+}
+.panel-box{
+	display: inline-block;
+	width: 33%;
+	position: relative;
+}
+@media screen and (max-width: 768px){
+	.panel{
+		margin-bottom: 12%;
+	}
+	.panel-box{
+		display: inline-block;
+		width: 100%;
+		margin-top: 5%;
+	}
+}
+.forum-minera{
+	background-color: green;
+}
+#showed{
+    color: #8a6d3b;
+    font-weight:bold;
+    background-color: #fcf8e3;
+}
+/*END Page A Programação*/
+
+
+
+/* START Page 4*/
+.palest-wrap{
+	/*border:solid 1px;*/
+	width: 92%;
+	border-radius: 10px;
+	margin-bottom: 8%;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+}
+.palest-wrap:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+@media screen and (max-width: 768px){
+.palest-wrap{
+	margin-left: 0;
+	width: 100%;
+}
+}
+.palest-wrap h3{
+	display: inline-block;
+}
+.palest-wrap i{
+	display: inline-block;
+}
+.palest-title{
+	width: 100%;
+	text-align: center;
+}
+.palest-texto{
+	margin-top: 4%;
+}
+.palest-photo-img{
+	border:dotted 1px;
+	border-radius: 10px;
+	margin: 2%;
+	width: 100%;
+}
+.palest-photo{
+	border:dotted 1px;
+	border-radius: 10px;
+	margin: 2%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+/* END Page 4*/
+/* START Page 6*/
+.inscricoes{
+	padding-top: 2%;
+}
+#sympla-widget-136482{
+	margin: 0 auto;
+}
+/* END Page 6*/
+/* START Page 7*/
+.carousel-galeria{
+	padding-bottom: 2%;
+	overflow: hidden;
+	width: 100%;
+}
+.carousel-img{
+	max-height: 650px;
+	width: 100%;
+}
+/* END Page 7*/
+/*START Page 8*/
+.form-group{
+	margin-bottom: 5%;
+}
+.form-control{
+	background: transparent;
+    padding: 3%;
+    border: solid 3px #042C5C;
+    font-size: 16px;
+}
+.btn-form{
+	padding: 2.5%;
+	font-size: 16px;
+}
+/*END Page 8*/
+.hackathon-section{
+	margin-top: -20px;
+}
+.hero-hack{
+	height: 500px;
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url('../img/matrix.jpeg');
+	background-position: center;
+	background-size: cover;
+	padding-top: 130px;
+	/*padding-left: 38px;*/
+	color: #fff;
+	text-align: center;
+}
+.hero-hack h1{
+	font-size: 70px;
+}
+.hero-hack-btns{
+	margin-top:120px;
+}
+.hero-hack-btns a{
+	background-color: #10264A;
+	padding: 20px;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 16px;
+	width: 240px;
+	margin: 30px;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px){
+	.hero-hack-btns a{
+		display: block;
+	}
+	.hero-hack-btns{
+		margin-left: 45px;
+		margin-top: 0;
+	}
+	.hero-hack{
+		padding-top:75px;
+	}
+}
+.hack-body{
+	padding: 0 8%;
+	text-align: center;
+}
+.funciona-box{
+	text-align: center;
+	padding: 0 40px;
+	margin-bottom: 65px;
+}
+.funciona-box p{
+	text-align: justify;
+	font-size: 18px;
+}
+.funciona-box i{
+	font-size: 80px;
+	margin: 28px;
+	text-align: center;
+	color: #10264A;
+}
+.local-onde{
+	text-align: center;
+	padding: 0 40px;
+}
+.local-onde p{
+	text-align: justify;
+	font-size: 18px;
+}
+.local-onde i{
+	font-size: 80px;
+	margin: 28px;
+	text-align: center;
+	color: #10264A;
+}
+.premios{
+	text-align: center;
+}
+.premio-box h4{
+	width: 300px;
+	font-size: 20px;
+	margin: 18px auto;
+	line-height: 30px;
+	margin-bottom: 40px;
+}
+.premio-box i{
+	font-size: 80px;
+	text-align: center;
+	color: #10264A;
+}
+.desafio-box p{
+	text-align: justify;
+	font-size: 18px;
+}
+.desafio-box i{
+	font-size: 80px;
+	text-align: center;
+	color: #10264A;
+}
+.desafio-text{
+	max-width: 700px;
+	margin: 30px auto;
+	text-align: justify;
+}
+.img-hack-holder img{
+	border-radius: 20px;
+	margin: 0 auto;
+}
+.final-hack{
+	margin-top: 20px;
+	padding-bottom: 100px;
+}
+.final-hack p{
+	font-size: 20px;
+}
+@media screen and (max-width: 768px){
+	.local-onde{
+		text-align: center;
+		padding: 0;
+	}
+	.local-onde p{
+		text-align: center;
+		font-size: 18px;
+	}
+	.final-hack .hero-hack-btns{
+		margin-left: 0;
+	}
+}
+/*START FOOTER*/
+.footer-congresso{
+	background-color: #10264A;
+	color: #fff;
+}
+/*END FOOTER*/
+.gallery-holder{
+	min-height: 500px;
+	margin-bottom: 50px;
+}
+
+.gallery-holder div{
+	margin-top: 30px;
+}
+.gallery-holder div h3{
+	width: 51%;
+	margin: 0 auto;
+	margin-bottom: 10px;	
+}
+@media screen and (max-width: 768px){
+	.gallery-holder div h3{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+}
+.gallery-holder div img{
+	margin: 0 auto;
+	border-radius: 10px;
+	border: solid 1px #13264A;
+
+    -webkit-transition:box-shadow .5s;
+       -moz-transition:box-shadow .5s;
+         -o-transition:box-shadow .5s;
+    		transition:box-shadow .5s;
+}
+
+.gallery-holder div img:hover{
+	-webkit-box-shadow: -1px 3px 25px -4px #5572A2;
+	   -moz-box-shadow: -1px 3px 25px -4px #5572A2;
+			box-shadow: -1px 3px 25px -4px #5572A2;
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+.img-gallery-holder{
+	height: 150px;
+	margin-top: 20px;
+}
+.img-placeholder-gallery{
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	border-radius: 2px;
+}
